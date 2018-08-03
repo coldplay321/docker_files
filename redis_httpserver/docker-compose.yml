@@ -3,7 +3,7 @@ version: "3.3"
 services:
  redis_httpserver: 
   container_name: redis_httpserver
-  image: redis_httpserver
+  image: bytehero/redis_httpserver
   depends_on:
    - redis
   links:
